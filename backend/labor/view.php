@@ -19,6 +19,7 @@
                 <span class="svg-icon svg-icon-md"><i class="flaticon2-plus"></i></span>เพิ่มข้อมูล</a>
         </div>
     </div>
+    
     <div class="card-body">
         <?php
         $sql = mysqli_query($con,"SELECT u.user_id, u.first_name, u.last_name, u.tel, u.department_id, u.create_date, u.status_id, t.title_name, d.department_th 
